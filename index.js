@@ -297,6 +297,3 @@ process.stdin.on('data', function (data) {
         }
     }
 })
-//states.forEach((v, i) => console.log(v));
-
-//setTimeout(function(){console.clear()},1000)
