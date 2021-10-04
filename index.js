@@ -172,7 +172,7 @@ process.stdin.on('data', function (data) {
                 //                  console.log("word")
                 if (dataStr == CurrentWord) {
                     console.clear()
-                    console.log("you win")
+                    console.log("you win\npress any key to restart")
                     console.log(states[CurrentState])
                     console.log(Blacklist.toString())
                     console.log(`\n`)
@@ -235,7 +235,7 @@ process.stdin.on('data', function (data) {
                     }());
                     if (CensoredString == CurrentWord) {
                         console.clear()
-                        console.log("you win")
+                        console.log("you win\npress any key to restart")
                         console.log(states[CurrentState])
                         console.log(Blacklist.toString())
                         console.log(`\n`)
